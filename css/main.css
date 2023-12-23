@@ -68,6 +68,13 @@ a {
     transition: var(--transition-duration);
 }
 
+@media (max-width: 767px) {
+  .main-heading {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
 .main-heading::before,
 .main-heading::after {
     content: "";
@@ -1367,6 +1374,12 @@ a {
     transition: var(--transition-duration);
 }
 
+
+@media (max-width: 767px) {
+  .pricing .box a {
+    font-size: 14px;
+  }
+}
 .pricing .box a::before {
     content: "";
     position: absolute;
